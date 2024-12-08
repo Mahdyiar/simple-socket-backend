@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // یا هر نسخه مورد نیاز
+    "module": "commonjs", // یا نوع ماژول مورد نیاز
+    "outDir": "./dist", // پوشه خروجی فایل‌های کامپایل شده
+    "rootDir": "./src", // پوشه اصلی فایل‌های TypeScript
+    "strict": true, // فعال کردن قوانین strict
+    "esModuleInterop": true // برای پشتیبانی از ماژول‌های CommonJS
+  },
+  "include": ["src/**/*.ts"], // فقط فایل‌های TypeScript در پوشه src را شامل می‌شود
+  "exclude": ["node_modules"] // پوشه node_modules را نادیده می‌گیرد
+}
